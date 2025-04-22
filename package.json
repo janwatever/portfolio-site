@@ -1,10 +1,31 @@
 {
-  "name": "portfolio",
-  "version": "1.0.0",
+  "type": "module",
   "private": true,
-  "dependencies": {
-    "parcel-bundler": "^1.6.1"
+  "sideEffects": false,
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite dev",
+    "typecheck": "tsc"
   },
-  "scripts": {},
-  "devDependencies": {}
+  "dependencies": {
+    "@webstudio-is/image": "0.217.0",
+    "@webstudio-is/react-sdk": "0.217.0",
+    "@webstudio-is/sdk": "0.217.0",
+    "@webstudio-is/sdk-components-react": "0.217.0",
+    "@webstudio-is/sdk-components-animation": "0.217.0",
+    "@webstudio-is/sdk-components-react-radix": "0.217.0",
+    "react": "18.3.0-canary-14898b6a9-20240318",
+    "react-dom": "18.3.0-canary-14898b6a9-20240318",
+    "vike": "^0.4.228"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.70",
+    "@types/react-dom": "^18.2.25",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "5.8.2",
+    "vite": "^5.4.11"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
 }
