@@ -1,0 +1,1 @@
+import{r as t,j as o}from"./chunk-kgTID673.js";const a="ul",i="ol",d=t.forwardRef(({ordered:e=!1,...r},s)=>t.createElement(e?i:a,{...r,ref:s}));d.displayName="List";const l=t.forwardRef(({children:e,...r},s)=>o.jsx("li",{...r,ref:s,children:e}));l.displayName="ListItem";export{d,l as i};
